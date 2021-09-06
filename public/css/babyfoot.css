@@ -1,0 +1,20 @@
+.babyfoot{
+    margin-left: 5%;
+    border: 1px solid black;
+    padding:60px;
+    width:60%;
+    display:block;
+    border-radius:10px;
+}
+#incrementer{
+    width:12%;
+    margin-left:52%;
+}
+.row{
+    margin-top:3%
+}
+
+.btn-secondary, .btn-danger{
+    margin-bottom:10%;
+}
+

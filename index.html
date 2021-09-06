@@ -1,0 +1,46 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet"
+          integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/babyfoot.css">
+    <title>Baby Foot</title>
+</head>
+<body>
+<hr>
+<div class="babyfoot">
+    <div class="partie">
+        <button class="btn btn-primary" id="incrementer" value="0">0</button>
+        <div class="row">
+            <div class="col-md-6">
+                <p><input class="form-control" id="element" type="text" value="Ajouter une partie"></p>
+            </div>
+            <div class="col-md-6">
+                <button class="btn btn-primary" id="send_data">Ajouter</button>
+            </div>
+        </div>
+    </div>
+    <div class="row" >
+        <div class="col-md-8">
+            <div id="add"></div>
+        </div>
+        <div class="col-md-2 " id="delete_div">
+        </div>
+        <div class="col-md-2" id="terminate_div">
+        </div>
+    </div>
+</div>
+<script src="https://cdn.jsdelivr.net$^ù!/npm/bootstrap@5.1.0/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-U1DAWAznBHeqEIlVSCgzq+c9gqGAJn5c/t99JyeKa9xxaYpSvHU5awsuZVVFIhvj"
+        crossorigin="anonymous"></script>
+<script src="/socket.io/socket.io.js"></script>
+<script src="./js/traitement.js"></script>
+<script>
+</script>
+</body>
+</html>
